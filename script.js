@@ -7,3 +7,6 @@ menuBtn.addEventListener("click", () => {
     navLinks.classList.toggle("active");
 });
 window.addEventListener("scroll", reveal);
+function reveal(){
+
+}
