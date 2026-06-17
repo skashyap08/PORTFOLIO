@@ -113,3 +113,8 @@ display:grid;
 grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
 gap:20px;
 }
+.skill-card{
+padding:30px;
+background:rgba(255,255,255,.08);
+border-radius:15px;
+}
