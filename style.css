@@ -80,3 +80,7 @@ url("hero.jpg");
 .hero-content h1{
 font-size:4rem;
 }
+.hero-content h2{
+margin:20px 0;
+color:#38bdf8;
+}
