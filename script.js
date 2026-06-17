@@ -36,3 +36,4 @@ function reveal(){
         }
     }
 }
+reveal();
