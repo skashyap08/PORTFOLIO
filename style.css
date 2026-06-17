@@ -18,3 +18,8 @@ color:white;
 body{
 overflow-x:hidden;
 }
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
