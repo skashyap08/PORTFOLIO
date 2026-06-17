@@ -94,3 +94,6 @@ border-radius:30px;
 transform:translateY(-5px);
 box-shadow:0 0 20px #38bdf8;
 }
+section{
+padding:100px 10%;
+}
