@@ -90,3 +90,7 @@ padding:15px 35px;
 background:#38bdf8;
 border-radius:30px;
 }
+.btn:hover{
+transform:translateY(-5px);
+box-shadow:0 0 20px #38bdf8;
+}
