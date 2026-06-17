@@ -97,3 +97,9 @@ box-shadow:0 0 20px #38bdf8;
 section{
 padding:100px 10%;
 }
+.heading{
+text-align:center;
+font-size:3rem;
+margin-bottom:50px;
+color:#38bdf8;
+}
