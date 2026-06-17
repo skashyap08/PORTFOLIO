@@ -71,3 +71,9 @@ text-align:center;
 background:url("hero.jpg");
 background-size:cover;
 }
+.hero{
+background:
+linear-gradient(rgba(0,0,0,.6),
+rgba(0,0,0,.7)),
+url("hero.jpg");
+}
