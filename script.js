@@ -10,3 +10,9 @@ window.addEventListener("scroll", reveal);
 function reveal(){
 
 }
+function reveal(){
+
+    const reveals =
+    document.querySelectorAll(".reveal");
+
+}
