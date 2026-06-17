@@ -48,3 +48,10 @@ list-style:none;
 color:white;
 text-decoration:none;
 }
+.nav-links a{
+transition:.3s;
+}
+
+.nav-links a:hover{
+color:#38bdf8;
+}
