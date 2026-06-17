@@ -77,3 +77,6 @@ linear-gradient(rgba(0,0,0,.6),
 rgba(0,0,0,.7)),
 url("hero.jpg");
 }
+.hero-content h1{
+font-size:4rem;
+}
