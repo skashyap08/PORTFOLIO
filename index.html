@@ -4,231 +4,190 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <a href="#projects" class="btn">View Projects</a>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <img src="profile.jpg" alt="Profile">
+
+        <p>
+            Passionate Web Developer and DevOps Enthusiast.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <div>HTML</div>
+        <div>CSS</div>
+        <div>JavaScript</div>
+        <div>Git</div>
+        <div>GitHub</div>
+        <div>Docker</div>
+        <div>AWS</div>
+        <div>CI/CD</div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <h2>Services</h2>
+
+        <div>Web Development</div>
+        <div>UI Design</div>
+        <div>DevOps Automation</div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>Personal portfolio project.</p>
+        </div>
+
+        <div class="project">
+            <h3>CI/CD Pipeline</h3>
+            <p>GitHub Actions deployment.</p>
+        </div>
+
+        <div class="project">
+            <h3>Emotion Detection</h3>
+            <p>Machine learning based system.</p>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+        <h2>Experience</h2>
+
+        <div>2024 - Started Web Development</div>
+        <div>2025 - Learned DevOps</div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <h2>Education</h2>
+
+        <div class="education-card">
+            <h3>Bachelor of Technology</h3>
+            <p>Computer Science Engineering</p>
+            <p>2023 - 2027</p>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications">
+        <h2>Certifications</h2>
+
+        <ul>
+            <li>Git & GitHub Certification</li>
+            <li>Introduction to DevOps</li>
+            <li>Linux Administration Basics</li>
+        </ul>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements">
+        <h2>Achievements</h2>
+
+        <div class="achievement-card">
+            <h3>50+ GitHub Commits</h3>
+            <p>Maintained consistent coding activity.</p>
+        </div>
+
+        <div class="achievement-card">
+            <h3>Deployed Projects</h3>
+            <p>Successfully deployed websites using Netlify.</p>
+        </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume">
+        <h2>Resume</h2>
+
+        <p>Download my latest resume.</p>
+
+        <a href="resume.pdf" download class="btn">
+            Download Resume
+        </a>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+
+        <div class="testimonial-card">
+            <p>
+                "Excellent developer with strong problem-solving skills."
+            </p>
+            <h4>- Project Mentor</h4>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <div class="social-icons">
+            <a href="https://github.com/skashyap08" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/sakshi-kashyap-369a20273" target="_blank">LinkedIn</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+
+        <div class="github-profile">
+            <h3>GitHub Profile</h3>
+            <a href="https://github.com/skashyap08" target="_blank">
+                Visit My GitHub
+            </a>
+        </div>
+
+        <div class="linkedin-profile">
+            <h3>LinkedIn Profile</h3>
+            <a href="https://www.linkedin.com/in/sakshi-kashyap-369a20273" target="_blank">
+                Connect on LinkedIn
+            </a>
+        </div>
+
+        <form>
+            <input type="text" placeholder="Name" required>
+
+            <input type="email" placeholder="Email" required>
+
+            <textarea placeholder="Message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Sakshi Kashyap Portfolio</p>
+    </footer>
+
 </body>
 </html>
-<nav class="navbar">
-
-    <div class="logo">Portfolio</div>
-
-    <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-
-</nav>
-<a href="#projects" class="btn">
-    View Projects
-</a>
-<section id="about">
-
-    <h2>About Me</h2>
-
-    <p>
-        Passionate web developer and DevOps enthusiast.
-    </p>
-
-</section>
-<img src="profile.jpg" alt="Profile">
-<section id="skills">
-
-<h2>Skills</h2>
-
-<div>HTML</div>
-<div>CSS</div>
-<div>JavaScript</div>
-
-</section>
-<div>Git</div>
-<div>GitHub</div>
-<div>Docker</div>
-<div>AWS</div>
-<div>CI/CD</div><section id="services">
-
-<h2>Services</h2>
-
-<div>Web Development</div>
-<div>UI Design</div>
-
-</section>
-<div>DevOps Automation</div>
-<section id="projects">
-
-<h2>Projects</h2>
-
-</section>
-<div class="project">
-
-<h3>Portfolio Website</h3>
-
-<p>Personal portfolio project.</p>
-
-</div>
-<div class="project">
-
-<h3>CI CD Pipeline</h3>
-
-<p>GitHub Actions deployment.</p>
-
-</div>
-<div class="project">
-
-<h3>Emotion Detection</h3>
-
-<p>Machine learning based system.</p>
-
-</div>
-<section id="experience">
-
-<h2>Experience</h2>
-
-</section>
-<div>2024 - Started Web Development</div>
-<div>2025 - Learned DevOps</div>
-<section id="contact">
-    <h2>Contact Me</h2>
-    <div class="social-icons">
-        <a href="#">
-            <i class="fab fa-github"></i>
-        </a>
-
-    <a href="#">
-        <i class="fab fa-linkedin"></i>
-    </a>
-
-    <a href="#">
-        <i class="fab fa-instagram"></i>
-    </a>
-
-    <a href="#">
-        <i class="fab fa-twitter"></i>
-    </a>
-
-</div>>
-
-<h2>Contact Me</h2>
-<div class="github-profile">
-
-    <h3>GitHub Profile</h3>
-
-    <a href="https://github.com/skashyap08" target="_blank">
-        Visit My GitHub
-    </a>
-
-</div>
-<div class="linkedin-profile">
-
-    <h3>LinkedIn Profile</h3>
-
-    <a href="https://www.linkedin.com/in/sakshi-kashyap-369a20273" target="_blank">
-        Connect on LinkedIn
-    </a>
-
-</div>
-<section id="resume">
-
-    <h2>Resume</h2>
-
-    <p>
-        Download my latest resume.
-    </p>
-
-    <a href="resume.pdf"
-       download
-       class="btn">
-       Download Resume
-    </a>
-    <section id="testimonials">
-
-    <h2>Testimonials</h2>
-
-    <div class="testimonial-card">
-
-        <p>
-            "Excellent developer with strong
-            problem-solving skills."
-        </p>
-
-        <h4>- Project Mentor</h4>
-
-    </div>
-    <section id="education">
-
-    <h2>Education</h2>
-
-    <div class="education-card">
-
-        <h3>Bachelor of Technology</h3>
-
-        <p>
-            Computer Science Engineering
-        </p>
-
-        <p>
-            2023 - 2027
-        </p>
-
-    </div>
-    <section id="certifications">
-
-    <h2>Certifications</h2>
-
-    <ul>
-
-        <li>Git & GitHub Certification</li>
-
-        <li>Introduction to DevOps</li>
-
-        <li>Linux Administration Basics</li>
-
-    </ul>
-    <section id="achievements">
-
-    <h2>Achievements</h2>
-
-    <div class="achievement-card">
-
-        <h3>50+ GitHub Commits</h3>
-
-        <p>
-            Maintained consistent coding activity.
-        </p>
-
-    </div>
-
-    <div class="achievement-card">
-
-        <h3>Deployed Projects</h3>
-
-        <p>
-            Successfully deployed websites using Netlify.
-        </p>
-
-    </div>
-
-</section>
-
-</section>
-
-</section>
-
-</section>
-
-</section>
-
-</section>
-<input type="text" placeholder="Name">
-
-<input type="email" placeholder="Email">
-<textarea placeholder="Message"></textarea>
-<button>Send Message</button>
-<footer>
-    <p>© 2026 Sakshi Kashyap Portfolio</p>
-</footer>
