@@ -1,39 +1,30 @@
-const menuBtn = document.querySelector(".menu-btn");
-const navLinks = document.querySelector(".nav-links");
-menuBtn.addEventListener("click", () => {
+const counters = document.querySelectorAll(".counter");
+
+counters.forEach(counter => {
+
+counter.innerText = "0";
+
+const updateCounter = () => {
+
+const target = +counter.getAttribute("data-target");
+const count = +counter.innerText;
+
+const increment = target / 200;
+
+if(count < target){
+
+counter.innerText = Math.ceil(count + increment);
+
+setTimeout(updateCounter,10);
+
+}else{
+
+counter.innerText = target;
+
+}
+
+};
+
+updateCounter();
 
 });
-menuBtn.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-});
-window.addEventListener("scroll", reveal);
-function reveal(){
-
-}
-function reveal(){
-
-    const reveals =
-    document.querySelectorAll(".reveal");
-
-}
-function reveal(){
-
-    const reveals =
-    document.querySelectorAll(".reveal");
-
-    for(let i = 0; i < reveals.length; i++){
-
-        let windowHeight =
-        window.innerHeight;
-
-        let revealTop =
-        reveals[i].getBoundingClientRect().top;
-
-        let revealPoint = 150;
-
-        if(revealTop < windowHeight - revealPoint){
-            reveals[i].classList.add("active");
-        }
-    }
-}
-reveal();
