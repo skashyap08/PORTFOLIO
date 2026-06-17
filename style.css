@@ -30,3 +30,7 @@ width:100%;
 .navbar{
 padding:20px 8%;
 }
+.navbar{
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(15px);
+}
